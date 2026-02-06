@@ -135,3 +135,8 @@ def get_withdrawals(author_id: int):
     ]
     result.sort(key=lambda x: x["created_at"], reverse=True)
     return result
+
+#FOR RENDER
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)
