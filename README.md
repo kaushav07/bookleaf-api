@@ -1,6 +1,6 @@
 # BookLeaf Author Royalties API
 
-This project is a backend REST API built for the BookLeaf Publishing technical assignment (Junior Full Stack Developer – Round 1).  
+This project is a backend REST API built for BookLeaf Publishing.  
 It handles author data, book sales, royalty calculations, and withdrawal requests based on the rules provided in the assignment PDF.
 
 ---
