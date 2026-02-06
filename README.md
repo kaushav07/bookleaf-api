@@ -107,7 +107,7 @@ A simple, modern single page UI was created to make manual testing easier withou
 
 * Displays authors, sales, balances and withdrawals in a readable format
 * Allows creating withdrawals directly from the browser
-* Uses the same deployed API (no backend changes)
+* Uses the same deployed API
 
 UI Link:
 
