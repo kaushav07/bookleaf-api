@@ -1,7 +1,7 @@
 # BookLeaf Author Royalties API
 
 This project is a backend REST API built for BookLeaf Publishing.  
-It handles author data, book sales, royalty calculations, and withdrawal requests based on the rules provided in the assignment PDF.
+It handles author data, book sales, royalty calculations and withdrawal requests based on the rules provided in the assignment PDF.
 
 ---
 
@@ -9,10 +9,10 @@ It handles author data, book sales, royalty calculations, and withdrawal request
 
 - **Backend:** Python (FastAPI)
 - **Database:** In-memory data storage (Python data structures)
-- **Deployment:** Render (Free tier)
-- **UI (optional):** Single-page HTML deployed on Vercel
+- **Deployment:** Render
+- **UI (optional):** Single page HTML deployed on Vercel
 
-FastAPI was chosen for its simplicity, clean routing, and built-in request validation.  
+FastAPI was chosen for its simplicity, clean routing and built in request validation.  
 In-memory storage was used as explicitly allowed in the assignment to keep the focus on business logic rather than database setup.
 
 ---
@@ -103,9 +103,9 @@ https://bookleaf-api-x8ts.onrender.com/authors
 
 ## Optional Testing UI (Vercel)
 
-A simple, modern single-page UI was created to make manual testing easier without Postman.
+A simple, modern single page UI was created to make manual testing easier without Postman.
 
-* Displays authors, sales, balances, and withdrawals in a readable format
+* Displays authors, sales, balances and withdrawals in a readable format
 * Allows creating withdrawals directly from the browser
 * Uses the same deployed API (no backend changes)
 
@@ -134,7 +134,7 @@ Approximately **3 hours**, including:
 
 ## Final Note
 
-The goal of this assignment was to write clean, readable, and maintainable code that follows the provided requirements closely.
+The goal of this assignment was to write clean, readable and maintainable code that follows the provided requirements closely.
 The implementation focuses on correctness and clarity rather than unnecessary complexity.
 
 ---
